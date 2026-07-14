@@ -1,6 +1,8 @@
 # Inventory-and-supply-chain-tracker-with-record-alerts
 <br/>
-Link - https://1drv.ms/x/c/59e7d09f8555ff0b/IQA5dJTfLW4mTbxFFq9aMraQAXqrAZAJAAdKaUJ0iBSJ0bk?e=1hNWgK
+XLSX Link - https://1drv.ms/x/c/59e7d09f8555ff0b/IQA5dJTfLW4mTbxFFq9aMraQAXqrAZAJAAdKaUJ0iBSJ0bk?e=1hNWgK
+<br/>
+MACRO ENABLED Link - https://1drv.ms/x/c/59e7d09f8555ff0b/IQD-7L5b3loRRYYgK--xhrFCAQnEsJ_ZxNHbl_VG-HbkojQ?e=1je39J
 <br/>
 <img width="1862" height="702" alt="image" src="https://github.com/user-attachments/assets/751700a6-2874-4706-af0e-08e32e0714ed" />
 
