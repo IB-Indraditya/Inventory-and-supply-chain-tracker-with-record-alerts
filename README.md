@@ -2,19 +2,16 @@
 <br/>
 Link - https://1drv.ms/x/c/59e7d09f8555ff0b/IQA5dJTfLW4mTbxFFq9aMraQAXqrAZAJAAdKaUJ0iBSJ0bk?e=1hNWgK
 <br/>
-<img width="1784" height="611" alt="image" src="https://github.com/user-attachments/assets/9fbb7059-b99f-4d38-8aa9-0477d1b3fe42" />
+<img width="1862" height="702" alt="image" src="https://github.com/user-attachments/assets/751700a6-2874-4706-af0e-08e32e0714ed" />
 
 <br/>
-<img width="1784" height="616" alt="image" src="https://github.com/user-attachments/assets/9654b5e6-8605-4d3a-a2f8-c7cd1b0b886c" />
-
-
-
 
 # Supply Chain Performance Report
 
 **Authors:** Prasam, Indraditya
 **Period covered:** January – December 2024
 **Tool:** Microsoft Excel (PivotTables, Slicers, PivotCharts)
+<img width="1784" height="611" alt="image" src="https://github.com/user-attachments/assets/9fbb7059-b99f-4d38-8aa9-0477d1b3fe42" />
 
 ## 1. Business Problem
 
@@ -26,6 +23,8 @@ The business tracks daily sales, inventory, and replenishment activity across 50
 - Is the reorder policy (reorder point → order quantity) actually keeping pace with demand, or is it reactive/inconsistent?
 
 Without a consolidated view, these questions require manually filtering and re-filtering a 91k-row spreadsheet every time — too slow for regular operational decisions like adjusting reorder points or flagging underperforming suppliers.
+<img width="1394" height="754" alt="image" src="https://github.com/user-attachments/assets/14f4d318-b600-484c-8487-dd26f554aec6" />
+
 
 ## 2. Objective
 
@@ -72,6 +71,7 @@ Because every chart is fed by PivotTables (not hardcoded numbers), the dashboard
 5. **Summarize with PivotTables** (`Overall Blueprint`, `Comparison Charts`, `Sheet9`, `Sheet10`) by month, region, warehouse, and supplier, and sanity-checked totals (e.g. regional sums matching the grand total) before building any chart.
 6. **Plan every chart against a business question first.** The `Dependencies` sheet lists all 23 charts with their axes and purpose (e.g. "Supplier delay vs sales") — ensuring the dashboard was built to answer the questions in Section 1, not charted for its own sake.
 7. **Build the dashboard**, wiring KPI cards to the pivots with `GETPIVOTDATA()` and cross-sheet references so headline numbers stay live rather than being typed in as static figures.
+<img width="1868" height="698" alt="image" src="https://github.com/user-attachments/assets/2f94fa79-e8cc-4709-be46-e14a8c97696e" />
 
 ## 6. Technical Reference
 
@@ -95,6 +95,8 @@ Because every chart is fed by PivotTables (not hardcoded numbers), the dashboard
 | Cross-sheet references | Feeds pivot totals from `Comparison Charts` into dashboard cards without duplicating pivots |
 | PivotTables | Aggregate data by month/region/warehouse/supplier without manual `SUMIFS` |
 | PivotCharts + Slicers | Drive all dashboard charts from filterable, linked pivot data |
+
+<img width="1784" height="616" alt="image" src="https://github.com/user-attachments/assets/9654b5e6-8605-4d3a-a2f8-c7cd1b0b886c" />
 
 ## 7. Conclusion
 
